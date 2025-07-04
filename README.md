@@ -30,10 +30,6 @@ At first, I was unsure whether to use Flexbox or CSS Grid for the layout. Since 
 Slanted and staggered blocks:
 I wasn't sure how to create the effect where the <p> rating elements and the testimonial cards looked like they were slanting or staggered diagonally. After experimenting, I learned to achieve this using margin-left on the rating blocks and margin-top on the testimonial cards to create a "falling" or "cascading" effect.
 
-### Screenshot
-
-![](./images/Screenshot.jpeg)
-
 
 ## My process
 
@@ -45,25 +41,25 @@ Broke down the design into two main sections: introduction with ratings, and tes
 
 # Building the HTML structure
 
-Created semantic markup using <section>, <div>, <h1>, <p>, <ul>, and <li>.
+Created semantic markup using ```<section>, <div>, <h1>, <p>, <ul>, and <li>.```
 
 Grouped related content properly for easier styling.
 
 # Styling with CSS
 
-Used Flexbox to control column and row arrangements.
+- Used Flexbox to control column and row arrangements.
 
-Added staggered margins to create the "slanting" visual effect.
+- Added staggered margins to create the "slanting" visual effect.
 
-Implemented box shadows for depth and modern look.
+- Implemented box shadows for depth and modern look.
 
-Applied colors, typography, and border-radius to match the design.
+- Applied colors, typography, and border-radius to match the design.
 
 # Fine-tuning & responsiveness
 
-Adjusted font sizes and spacing for better readability.
+- Adjusted font sizes and spacing for better readability.
 
-Ensured content looks visually balanced across screen sizes.
+- Ensured content looks visually balanced across screen sizes.
 
 ### Built with
 
@@ -109,31 +105,27 @@ const proudOfThisFunc = () => {
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
 Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
 - [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
 - Frontend Mentor - [@jeff20501](https://www.frontendmentor.io/profile/jeff20501)
 - github - [@jeff20501](https://github.com/jeff20501)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+
 
 ## Acknowledgments
 
 Special thanks to Kevin Powell's YouTube channel for guidance on CSS techniques like box shadows and layout tricks.
 (https://www.youtube.com/watch?v=3elGSZSWTbM)
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
